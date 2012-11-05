@@ -733,6 +733,11 @@ LDFLAGS=$boost_python_save_LDFLAGS
 LIBS=$boost_python_save_LIBS
 ])# BOOST_PYTHON
 
+# BOOST_RANDOM
+# ------------
+# Look for Boost.Random
+BOOST_DEFUN([Random],
+[BOOST_FIND_HEADER([boost/random/random_device.hpp])])
 
 # BOOST_REF()
 # -----------

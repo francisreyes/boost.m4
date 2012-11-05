@@ -480,6 +480,12 @@ BOOST_DEFUN([Bind],
 [BOOST_FIND_HEADER([boost/bind.hpp])])
 
 
+# BOOST_CIRCULAR_BUFFER()
+# -----------------------
+# Look for Boos.Circular_buffer
+BOOST_DEFUN([Circular_buffer],
+[BOOST_FIND_HEADER([boost/circular_buffer.hpp])])
+
 # BOOST_CHRONO()
 # ------------------
 # Look for Boost.Chrono

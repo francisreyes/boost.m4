@@ -704,6 +704,11 @@ BOOST_DEFUN([Program_Options],
 ])# BOOST_PROGRAM_OPTIONS
 
 
+# BOOST_PROPERTY_TREE
+# -------------------
+# Look for Boost.Property_tree
+BOOST_DEFUN([Property_Tree],
+[BOOST_FIND_HEADER([boost/property_tree/ptree.hpp])])
 
 # _BOOST_PYTHON_CONFIG(VARIABLE, FLAG)
 # ------------------------------------
